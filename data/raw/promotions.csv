@@ -1,0 +1,9 @@
+PromotionID,PromotionName,DiscountPercent,StartDate,EndDate
+1,Spring Sale,10.0,2024-03-01,2024-03-31
+2,Summer Sale,15.0,2024-07-01,2024-07-31
+3,Black Friday,25.0,2024-11-20,2024-11-30
+4,Christmas Sale,20.0,2024-12-10,2024-12-31
+5,Spring Sale 2025,10.0,2025-03-01,2025-03-31
+6,Summer Sale 2025,15.0,2025-07-01,2025-07-31
+7,Black Friday 2025,25.0,2025-11-20,2025-11-30
+8,Christmas Sale 2025,20.0,2025-12-10,2025-12-31

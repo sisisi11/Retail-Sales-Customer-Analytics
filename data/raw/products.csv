@@ -1,0 +1,21 @@
+ProductID,ProductName,Category,UnitPrice
+1,Wireless Mouse,Electronics,29.9
+2,Keyboard,Electronics,49.9
+3,Headphones,Electronics,79.9
+4,USB-C Cable,Electronics,14.9
+5,Laptop Stand,Electronics,44.9
+6,Coffee Maker,Home,89.9
+7,Desk Lamp,Home,39.9
+8,Water Bottle,Home,19.9
+9,Storage Box,Home,24.9
+10,Running Shoes,Sports,99.9
+11,Yoga Mat,Sports,32.9
+12,Football,Sports,24.9
+13,Training Bag,Sports,54.9
+14,T-Shirt,Clothing,21.9
+15,Hoodie,Clothing,54.9
+16,Jeans,Clothing,64.9
+17,Notebook,Office,6.9
+18,Pen Set,Office,12.9
+19,Office Chair,Office,149.9
+20,Desk Organizer,Office,18.9
