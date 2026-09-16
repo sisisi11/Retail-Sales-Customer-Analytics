@@ -1,25 +1,55 @@
-# Retail Sales & Customer Analytics
+Retail Sales & Customer Analytics
 
-This project analyzes retail sales, customer behaviour and product performance using SQL Server and Power BI.
+A practical end-to-end portfolio project that moves synthetic retail data from raw CSV files through Python validation and transformation into SQL Server and a Power BI dashboard.
 
-The goal is to build a small but realistic analytics project while improving my SQL, data analysis and reporting skills.
+The fictional retailer sells through physical stores and an online channel. The data covers customers, products, stores, sales, sale items, promotions and returns.
 
-## Project Goals
+Data Pipeline
 
-- Analyze sales performance
-- Compare product and category results
-- Explore customer purchasing behaviour
-- Identify sales trends
-- Review returns and promotions
-- Build a Power BI dashboard with key business metrics
+Raw CSV files -> Python and pandas -> SQL Server staging tables -> relational reporting model and views -> Power BI
 
-## Tools
+Planned Workflow
 
-- Microsoft SQL Server
-- T-SQL
-- Power BI
-- Git / GitHub
+Extract - Read seven related CSV files and check their expected structure.
 
-## Project Status
+Transform - Standardize data types and dates, handle missing values and duplicates, and apply basic business rules.
 
-Work in progress.
+Load - Use Python and pyodbc to load validated data into SQL Server staging tables.
+
+Model - Use T-SQL to populate clean relational tables with primary and foreign keys and create reusable reporting views.
+
+Analyze - Answer business questions about revenue, trends, channels, customers, products, promotions and returns.
+
+Report - Build a Power BI dashboard with a small set of clear KPIs and DAX measures.
+
+Technology Stack
+
+Python 3
+
+pandas
+
+pyodbc and Microsoft ODBC Driver for SQL Server
+
+Microsoft SQL Server / SQL Server Management Studio
+
+T-SQL
+
+Power BI Desktop / DAX
+
+Git / GitHub
+
+Planned Data Model
+
+Customers
+
+Products
+
+Stores
+
+Sales
+
+SaleItems
+
+Promotions
+
+Returns
